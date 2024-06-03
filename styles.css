@@ -5,7 +5,7 @@ body {
     height: 100vh;
     margin: 0;
     font-family: 'Georgia', serif; /* Fuente bonita y elegante */
-    background-color: #013C4A; /* Azul petróleo */
+    background: linear-gradient(135deg, #013C4A 0%, #0086AD 100%); /* Gradiente azul petróleo */
 }
 
 .container {
@@ -17,6 +17,7 @@ h1 {
     margin-bottom: 20px;
     font-size: 2.5em;
     color: white;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); /* Sombreado al título */
 }
 
 button {
@@ -24,14 +25,20 @@ button {
     margin: 10px;
     font-size: 16px;
     cursor: pointer;
-    border: none;
+    border: 2px solid #fff; /* Línea de bisel */
     border-radius: 5px;
-    transition: background-color 0.3s ease;
+    background-color: transparent;
+    color: white;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    background-color: rgba(255, 255, 255, 0.2); /* Cambio de color al pasar el ratón */
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5); /* Sombra al pasar el ratón */
 }
 
 #onButton {
     background-color: #4CAF50; /* Verde */
-    color: white;
 }
 
 #onButton:hover {
@@ -40,7 +47,6 @@ button {
 
 #offButton {
     background-color: #f44336; /* Rojo */
-    color: white;
 }
 
 #offButton:hover {
