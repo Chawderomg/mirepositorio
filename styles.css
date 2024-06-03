@@ -1,0 +1,41 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+.container {
+    text-align: center;
+}
+
+button {
+    padding: 15px 30px;
+    margin: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+#onButton {
+    background-color: #4CAF50; /* Verde */
+    color: white;
+}
+
+#onButton:hover {
+    background-color: #45a049;
+}
+
+#offButton {
+    background-color: #f44336; /* Rojo */
+    color: white;
+}
+
+#offButton:hover {
+    background-color: #da190b;
+}
