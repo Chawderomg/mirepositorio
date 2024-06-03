@@ -4,12 +4,19 @@ body {
     align-items: center;
     height: 100vh;
     margin: 0;
-    font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
+    font-family: 'Georgia', serif; /* Fuente bonita y elegante */
+    background-color: #013C4A; /* Azul petróleo */
 }
 
 .container {
     text-align: center;
+    transform: translateY(-10%); /* Mueve los botones un poquito hacia arriba */
+}
+
+h1 {
+    margin-bottom: 20px;
+    font-size: 2.5em;
+    color: white;
 }
 
 button {
